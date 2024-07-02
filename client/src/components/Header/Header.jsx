@@ -37,7 +37,7 @@ const Header = () => {
             <li>Categories</li>
           </ul>
           <div className="center" onClick={() => navigate("/")}>
-            TechTrove.
+            GadgetGlitz.
           </div>
           <div className="right">
             <TbSearch onClick={() => setShowSearch(true)} />

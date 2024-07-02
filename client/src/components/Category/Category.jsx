@@ -9,7 +9,7 @@ const Category = (name) => {
     `/api/products?populate=*&[filters][categories][id]=${id}`
   );
   return (
-    <div className="category-main-content">
+    <div className="category-main-content" id="category-sec">
       <div className="layout">
         <div className="category-title">
           {
